@@ -4,7 +4,7 @@ LABEL maintainer="Edrox"
 
 RUN pip install flask
 
-COPY /src ./
+COPY /src /src
 
 EXPOSE 5000
 
