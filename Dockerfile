@@ -4,6 +4,8 @@ LABEL maintainer="Edrox"
 
 RUN pip install flask
 
-COPY src /src/
+COPY run.py /run.py
 
 EXPOSE 5000
+
+ENTRYPOINT ["python", "/app.py"]
