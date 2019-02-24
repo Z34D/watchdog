@@ -8,4 +8,3 @@ COPY src /usr/local/src
 
 EXPOSE 5000
 
-ENTRYPOINT ["python", "/usr/local/src/app.py"]
