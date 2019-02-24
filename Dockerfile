@@ -6,7 +6,7 @@ RUN pip install flask
 
 COPY src /src
 
-WORKDIR 	/src
+WORKDIR 	/src/
 
 EXPOSE 5000
 
