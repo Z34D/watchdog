@@ -4,8 +4,8 @@ LABEL maintainer="Edrox"
 
 RUN pip install flask
 
-COPY src /src
+COPY src /usr/local/src
 
 EXPOSE 5000
 
-ENTRYPOINT ["python", "/src/app.py"]
+ENTRYPOINT ["python", "/usr/local/src/app.py"]
