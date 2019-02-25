@@ -4,7 +4,7 @@ LABEL maintainer="Edrox"
 
 COPY src /usr/local/src
 
-RUN pip install -r ./usr/local/src/requirements.txt
+RUN pip install -r /usr/local/src/requirements.txt
 
 EXPOSE 5000
 
