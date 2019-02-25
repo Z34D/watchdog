@@ -8,4 +8,3 @@ ADD src /usr/local/src
 
 EXPOSE 5000
 
-CMD ["python", "./usr/local/src/app.py"]
