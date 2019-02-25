@@ -2,7 +2,6 @@ Flask
 Flask-wtf
 Flask-login
 Flask-sqlalchemy
-pylint-flask
 Flask-Cache
 Flask-Restful
 Flask-bcrypt
