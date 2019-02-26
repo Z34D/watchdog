@@ -11,7 +11,7 @@ RUN pip install Flask-login
 RUN pip install Flask-sqlalchemy
 RUN pip install Flask-Cache
 RUN pip install Flask-Restful
-RUN pip install Flask-bcrypt
+
 
 EXPOSE 5000
 
