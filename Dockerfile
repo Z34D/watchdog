@@ -8,6 +8,8 @@ RUN pip install --upgrade pip
 RUN pip install Flask
 RUN pip install Flask-wtf
 RUN pip install Flask-login
+RUN pip install Flask-sqlalchemy
+RUN pip install Flask-Cache
 
 EXPOSE 5000
 
