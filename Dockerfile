@@ -5,12 +5,8 @@ LABEL maintainer="Edrox"
 COPY src /usr/local/src
 WORKDIR /usr/local/src/
 RUN pip install --upgrade pip
-RUN pip install Flask
-RUN pip install Flask-wtf
-RUN pip install Flask-login
-RUN pip install Flask-sqlalchemy
-RUN pip install Flask-Cache
-RUN pip install Flask-Restful
+RUN pip install bcrypt
+
 
 
 EXPOSE 5000
