@@ -5,7 +5,7 @@ LABEL maintainer="Edrox"
 COPY src /usr/local/src
 WORKDIR /usr/local/src/
 RUN pip install --upgrade pip
-RUN apt install build-essential libffi-dev python-dev
+RUN apk add build-essential libffi-dev python-dev
 RUN pip install bcrypt
 
 
