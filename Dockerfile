@@ -19,6 +19,9 @@ RUN apk update \
     && apk add \
         bash
         
+RUN rc-update add sshd
+RUN /etc/init.d/sshd start
+
 WORKDIR /usr/local/src/
 RUN pip install -r requirements.txt
 
