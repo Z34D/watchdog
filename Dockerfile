@@ -19,8 +19,6 @@ RUN apk update \
     && apk add \
         bash
         
-RUN /etc/init.d/sshd start
-
 WORKDIR /usr/local/src/
 RUN pip install -r requirements.txt
 
@@ -29,4 +27,4 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 EXPOSE 22
 
-CMD [ "python", "./usr/local/src/hello.py" ]
+
