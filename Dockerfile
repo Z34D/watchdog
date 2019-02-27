@@ -27,5 +27,6 @@ RUN pip install -r requirements.txt
 
 
 EXPOSE 5000
+EXPOSE 22
 
 CMD [ "python", "./usr/local/src/hello.py" ]
