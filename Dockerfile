@@ -12,6 +12,8 @@ RUN apk update \
         gcc \
         wget \
         git \
+        libffi \
+        openssh \
     && apk add \
         bash
 RUN pip install bcrypt
